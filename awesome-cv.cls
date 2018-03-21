@@ -284,6 +284,9 @@
 % Defines writer's homepage (optional)
 % Usage: \homepage{<url>}
 \newcommand*{\homepage}[1]{\def\@homepage{#1}}
+% Defines writer's blogpage (optional)
+% Usage: \blogpage{<url>}
+\newcommand*{\blogpage}[1]{\def\@blogpage{#1}}
 
 % Defines writer's github (optional)
 % Usage: \github{<github-nick>}
@@ -454,6 +457,12 @@
           \ifbool{isstart}{\setbool{isstart}{false}}{\acvHeaderSocialSep}%
           \href{https://\@homepage}{\faHome\acvHeaderIconSep\@homepage}%
         }%
+     \ifthenelse{\isundefined{\@blogpage}}%
+    {}%
+    {%
+    	\ifbool{isstart}{\setbool{isstart}{false}}{\acvHeaderSocialSep}%
+    	\href{https://\@blogpage}{\faDribbble\acvHeaderIconSep\@blogpage}%
+    }%
       \ifthenelse{\isundefined{\@github}}%
         {}%
         {%
