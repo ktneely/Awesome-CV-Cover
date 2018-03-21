@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015/Debian) (preloaded format=xelatex 2017.9.9)  21 MAR 2018 07:32
+This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015/Debian) (preloaded format=xelatex 2017.9.9)  21 MAR 2018 07:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1227,7 +1227,7 @@ Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 135.
 Here is how much of TeX's memory you used:
  40276 strings out of 493638
  766405 string characters out of 6146797
- 878380 words of memory out of 5000000
+ 878381 words of memory out of 5000000
  43164 multiletter control sequences out of 15000+600000
  7145 words of font info for 91 fonts, out of 8000000 for 9000
  1328 hyphenation exceptions out of 8191
